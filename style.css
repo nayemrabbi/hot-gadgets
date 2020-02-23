@@ -1,0 +1,36 @@
+.container {
+  padding-bottom: 40px;
+}
+.navbar-nav a {
+  color: gray !important;
+  font-weight: 600;
+  font-size: 18px !important;
+}
+.slide-bg {
+  background-color: #efebdf;
+}
+.carousel-item {
+  padding: 20px 40px;
+}
+.price {
+  color: #2f2742;
+}
+.buy-now-button {
+  background-image: linear-gradient(
+    to bottom,
+    #332b46 0%,
+    rgb(52, 42, 75) 100%
+  );
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+.see-all {
+  color: #ff9d00;
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
