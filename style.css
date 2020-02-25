@@ -1,36 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins";
+}
 .container {
   padding-bottom: 40px;
 }
+/* Navbar Area Start Here*/
+.navbar {
+  position: sticky;
+  top: 0;
+}
 .navbar-nav a {
-  color: gray !important;
+  color: #707070 !important;
   font-weight: 600;
   font-size: 18px !important;
 }
-.slide-bg {
-  background-color: #efebdf;
+
+/* Carousel Image Slider Area Start Here*/
+.carousel-indicators li.active {
+  width: 45px;
+  height: 10px;
+  background-image: linear-gradient(142deg, #ff9c35 0%, #ffd019 100%);
 }
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  background-color: #cecece;
+}
+
 .carousel-item {
   padding: 20px 40px;
 }
+/* Button and Price Area Start Here*/
+
 .price {
-  color: #2f2742;
+  color: #000000;
 }
 .buy-now-button {
-  background-image: linear-gradient(
-    to bottom,
-    #332b46 0%,
-    rgb(52, 42, 75) 100%
-  );
+  background-color: #000000;
   color: white;
   border: none;
   border-radius: 8px;
-  padding: 9px 25px;
+  padding: 12px 22px;
   cursor: pointer;
+  transition: all 0.2s ease;
 }
-.see-all {
+.buy-now-button:hover {
+  background-image: linear-gradient(45deg, #ff9c35, #ffd019);
+}
+.cat-title {
+  position: relative;
+  bottom: 20px;
+}
+.cat-title h6 {
+  bottom: 0;
+  right: 0;
+  position: absolute;
   color: #ff9d00;
-  font-size: 18px;
-  display: flex;
-  justify-content: flex-end;
-  cursor: pointer;
+}
+
+/*Categories Area Start Here */
+.section-title {
+  text-align: center !important;
+  font-size: 35px;
+}
+.section-title hr {
+  height: 10px;
+  width: 135px;
+  border: 0;
+  margin: 0 auto;
+  border-radius: 18px;
+  margin-top: 15px;
+  border: 0;
+  background-image: linear-gradient(45deg, #ff9c35, #ffd019);
+  margin-bottom: 5%;
+}
+.card-categories {
+  background-color: #ffffff;
+  box-shadow: 0 6px 64px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  padding: 48px 52px;
+  border-radius: 5px;
+}
+.card-radius {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 40px;
+}
+/*Categories Area End Here */
+
+/*Subscribe Area Start Here */
+.subscribe {
+  height: 300px;
+  width: auto;
+  background-color: #f5f6f6;
+}
+.subscribe h1 {
+  color: black;
+  padding-top: 80px;
+}
+.sub-now {
+  padding-top: 20px;
+}
+.sub-now input {
+  border: none;
+  border-radius: 3px;
+  width: 450px;
+  padding: 10px 8px;
+}
+.sub-now button {
+  margin-left: 5px;
+  padding: 10px 8px;
+  font-weight: 500;
+  background-color: #4d86c6;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+/*Subscribe Area End Here */
+
+/*Footer Area End Here */
+.footer-area {
+  height: 400px;
+  background-color: #333333;
+}
+.footer {
+  color: white;
+  padding-top: 20px;
+}
+.top-cat-links {
+  padding-left: 22%;
+}
+.top-cat-links li {
+  list-style: none;
+}
+.top-cat-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  transition: all 0.2s ease;
+}
+.top-cat-links li a:hover {
+  color: #ff9c35;
+}
+.follow-us .fa {
+  font-size: 28px;
+}
+.follow-us a {
+  color: white;
+  padding: 5px;
+}
+.copywrite {
+  background-color: #333333;
+}
+.copywrite {
+  bottom: 0;
+  color: white;
 }
